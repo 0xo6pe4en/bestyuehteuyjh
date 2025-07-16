@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкальная школа "Мелодия"</title>
+
+    <meta name="theme-color" content="#2c3e50">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Мелодия">   
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="icon.png">
+    
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <h1>Музыкальная школа "Мелодия"</h1>
+            <p class="subtitle">Раскройте свой талант в гармонии звуков</p>
+        </div>
+        <nav>
+            <div class="nav-links">
+                <a href="#about">О школе</a>
+                <a href="#courses">Направления</a>
+                <a href="#teachers">Преподаватели</a>
+                <a href="#contact">Контакты</a>
+                <a href="#signup">Записаться</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>О нашей школе</h2>
+                <div class="about-content">
+                    <img src="music-school.jpg" alt="Урок музыки в нашей школе" class="about-img">
+                    <div class="about-text">
+                        <p>Добро пожаловать в музыкальную школу "Мелодия" - место, где рождается настоящее искусство. Мы создаем атмосферу, в которой каждый ученик может раскрыть свой творческий потенциал.</p>
+                        <p>Наша школа объединяет профессиональных преподавателей, современные методики обучения и индивидуальный подход к каждому студенту.</p>
+                        <ul class="features-list">
+                            <li>Обучение для всех возрастов</li>
+                            <li>Индивидуальные и групповые занятия</li>
+                            <li>Подготовка к экзаменам и выступлениям</li>
+                            <li>Удобное расположение в центре города</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses" class="section">
+            <div class="container">
+                <h2>Наши направления</h2>
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-icon">🎹</div>
+                        <h3>Фортепиано, скрипка</h3>
+                        <p>Классическая и современная программа обучения для всех уровней подготовки.</p>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-icon">🎸</div>
+                        <h3>Гитара, барабаны</h3>
+                        <p>Акустическая, классическая и электрогитара. Разные стили и техники игры.</p>
+                    </div>
+                    <div class="course-card">
+                        <div class="course-icon">🎤</div>
+                        <h3>Вокал</h3>
+                        <p>Академический, эстрадный и джазовый вокал. Постановка голоса и дыхания.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="teachers" class="section">
+            <div class="container">
+                <h2>Наши преподаватели</h2>
+                <div class="teachers-grid">
+                    <div class="teacher-card">
+                        <img src="ph1.jpg" alt="Анна Смирнова" class="teacher-photo">
+                        <h3>Анна Смирнова</h3>
+                        <p class="subject">Фортепиано, скрипка</p>
+                        <p>Выпускница Московской консерватории, лауреат международных конкурсов.</p>
+                    </div>
+                    <div class="teacher-card">
+                        <img src="ph2.jpg" alt="Дмитрий Петров" class="teacher-photo">
+                        <h3>Дмитрий Петров</h3>
+                        <p class="subject">Гитара, барабаны</p>
+                        <p>Профессиональный музыкант с 15-летним опытом преподавания.</p>
+                    </div>
+                    <div class="teacher-card">
+                        <img src="ph3.jpg" alt="Елена Ковалева" class="teacher-photo">
+                        <h3>Елена Ковалева</h3>
+                        <p class="subject">Вокал</p>
+                        <p>Оперная певица, участница международных музыкальных проектов.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Контакты</h2>
+                <div class="contact-info">
+                    <p><strong>Адрес:</strong> г. Москва, ул. Музыкальная, 15</p>
+                    <p><strong>Телефон:</strong> +7 (495) 123-45-67</p>
+                    <p><strong>Email:</strong> info@melody-school.ru</p>
+                    <p><strong>Часы работы:</strong> Пн-Пт: 9:00-21:00, Сб-Вс: 10:00-18:00</p>
+                </div>
+            </div>
+        </section>
+        <section id="signup" class="section">
+            <div class="container">
+                <h2>Записаться на занятия</h2>
+                <div class="signup-form-container">
+                    <form class="signup-form">
+                        <div class="form-group">
+                            <label for="lastname">Фамилия:</label>
+                            <input type="text" id="lastname" name="lastname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname">Имя:</label>
+                            <input type="text" id="firstname" name="firstname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="course">Направление:</label>
+                            <select id="course" name="course" required>
+                                <option value="">Выберите направление</option>
+                                <option value="piano">Фортепиано</option>
+                                <option value="guitar">Гитара</option>
+                                <option value="vocal">Вокал</option>
+                                <option value="drum">Барабаны</option>
+                                <option value="violine">Скрипка</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="submit-btn">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Мелодия</a>
+                    <p>Музыкальная школа для детей и взрослых</p>
+                </div>
+                <div class="footer-contact">
+                    <p>г. Москва, ул. Музыкальная, 15</p>
+                    <p>+7 (495) 123-45-67</p>
+                    <p>info@melody-school.ru</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2025 Музыкальная школа "Мелодия".</p>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <script>
+        
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('/serviceworker.js')
+                    .then(function(registration) {
+                        console.log('ServiceWorker успешно зарегистрирован');
+                    })
+                    .catch(function(err) {
+                        console.log('Ошибка регистрации ServiceWorker:', err);
+                    });
+            });
+        }
+    
+        const form = document.querySelector(".signup-form");
+        form.addEventListener("submit", function(e) {
+            e.preventDefault();
+            alert("Спасибо за заявку! Мы свяжемся с вами в ближайшее время.");
+            form.reset();
+        });
+    </script>
+</body>
+</html>

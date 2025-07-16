@@ -1,0 +1,16 @@
+{
+  "name": "Мелодия - музыкальная школа",
+  "short_name": "Мелодия",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9f5f0",
+  "theme_color": "#2c3e50",
+  "description": "Музыкальная школа для детей и взрослых",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
